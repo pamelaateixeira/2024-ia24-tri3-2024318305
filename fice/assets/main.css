@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 1vh;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo img,
+.fice img {
+    width: 60vmin;
+    height: auto;
+}
+
+.container {
+    margin-left: 50px;
+    display: flex;
+    gap: 150px;
+}
+
+.main-title {
+    margin: 80px;
+}
+
+.titulo h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.sutoria {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+p.emails {
+    color: rgb(63, 124, 216);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    font-weight: 1.5;
+}
+
+.triangulo {
+    display: inline-block;
+    right: 0;
+    position: absolute;
+    margin-right: 0vw;
+    width: 10vw;
+    height: 3vh;
+    border-top: 0px solid transparent;
+    border-bottom: 5vh solid transparent;
+    border-right: 95vw solid rgb(44, 158, 3);
+    border-bottom-left-radius: 10%;
+    transform: rotate(0.5deg);
+
+    z-index: -1;
+}
+
+.trianguloabaixo {
+    display: inline-block;
+    position: absolute;
+    margin-top: 2vw;
+    right: 0;
+    margin-right: 0vw;
+    width: 10vw;
+    height: 3vh;
+    border-top: 0px solid transparent;
+    border-bottom: 3vh solid transparent;
+    border-right: 85vw solid rgb(30, 105, 2);
+    border-bottom-left-radius: 10%;
+    transform: rotate(2deg);
+    z-index: -1;
+}
+
+.tri2 {
+    width: 0;
+    padding: auto;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 3vh solid transparent;
+    border-left: 85vw solid rgb(30, 105, 2);
+    transform: rotate(2deg);
+}
+
+.triaabaixo2 {
+    display: inline-block;
+    width: 1px;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 4vh solid transparent;
+    border-left: 95vw solid rgb(44, 158, 3);
+    transform: rotate(0.5deg);
+}
+
+.grafico {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.grafico img {
+    width: 100%;
+}
+
+.left,
+.right {
+    width: 45%;
+}
+
+.left h2,
+.right h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.left p,
+.right p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding: 2vh;
+}
